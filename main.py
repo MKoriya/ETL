@@ -77,7 +77,7 @@ def main():
         else:
             print('Error!! You may have entered wrong value. Please Try Again!')
 
-        choice = int(input('You want to continue?(Y/N): '))
+        choice = input('You want to continue?(Y/N): ')
         if choice.lower() == 'n':
             flag = False
 
